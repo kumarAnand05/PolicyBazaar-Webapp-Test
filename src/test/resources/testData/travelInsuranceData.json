@@ -1,0 +1,18 @@
+{
+  "SearchTerm" : ["Ca", "Ang", "Sou"],
+  "NonEuropeanCountry" : ["Singapore","Egypt","Iran","Japan","Korea", "France", "Germany"],
+  "EuropeanCountry" : ["France","Germany"],
+  "ValidStartDate" : ["2024-Apr-10","2024-Apr-15","2024-Apr-22"],
+  "ValidEndDate" : ["2024-May-16","2024-Jun-11", "2024-May-26"],
+  "InvalidStartDate" : ["2024-Jan-27","2005-Jan-27"],
+  "InvalidEndDate" : ["2024-Jan-27","2005-Jan-27"],
+  "NumberOfTravellers": ["2"],
+  "Ages" : ["21","22"],
+  "MedicalCondition" : ["No"],
+  "InvalidPhoneNumber" : ["0999999999","0000000000", "905467"],
+  "ValidPhoneNumber" : ["9999999999","9876543210"],
+  "PlanType" : ["Student plans"],
+  "TripDuration" : ["180 Days"],
+  "SortType" : ["low"],
+  "DataToCollect" : ["3"]
+}

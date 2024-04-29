@@ -1,0 +1,12 @@
+<suite name = "PolicyBazaar Combined Framework Testsuite">
+    <parameter name = "browser" value ="Chrome"/>
+    <listeners>
+        <listener class-name="policybazaar.utility.ExtentReportManager"/>
+    </listeners>
+    <test name = "Chrome Test">
+        <classes>
+            <class name = "policybazaar.tests.TravelInsuranceTests"/>
+            <class name = "policybazaar.tests.CarInsuranceTests"/>
+        </classes>
+    </test>
+</suite>

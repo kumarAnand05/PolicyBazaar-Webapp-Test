@@ -1,0 +1,13 @@
+<suite name = "PolicyBazaar Chrome Testsuite">
+    <parameter name = "browser" value ="Edge"/>
+    <listeners>
+        <listener class-name="policybazaar.utility.ExtentReportManager"/>
+    </listeners>
+    <test name = "Edge Test">
+        <classes>
+            <class name = "policybazaar.tests.TravelInsuranceTests"/>
+            <class name = "policybazaar.tests.CarInsuranceTests"/>
+            <class name = "policybazaar.tests.HealthInsuranceTests"/>
+        </classes>
+    </test>
+</suite>

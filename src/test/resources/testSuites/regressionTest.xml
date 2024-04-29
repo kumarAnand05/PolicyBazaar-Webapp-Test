@@ -1,0 +1,18 @@
+<suite name="PolicyBazaar Smoke Testsuite">
+    <parameter name="browser" value="Chrome"/>
+    <listeners>
+        <listener class-name="policybazaar.utility.ExtentReportManager"/>
+    </listeners>
+    <test name="PolicyBazaar Regression Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "policybazaar.tests.TravelInsuranceTests"/>
+            <class name = "policybazaar.tests.CarInsuranceTests"/>
+            <class name = "policybazaar.tests.HealthInsuranceTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+{
+  "InvalidCarNumber":["3747AH"],
+  "ValidCarNumber":["MH12AZ1234"],
+  "InvalidName":["4567zT","username@gmail.com","9999999999"],
+  "InvalidEmail":["Username","username@gmail","9999999999"],
+  "InvalidNumber":["Username","username@gmail.com","00456783"],
+  "ValidDetails":["Username","username@gmail.com","9999999999"]
+}
