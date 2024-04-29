@@ -1,0 +1,20 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Tests" level="WARNING" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="searchbox" />
+            <item index="1" class="java.lang.String" itemvalue="Smoke" />
+            <item index="2" class="java.lang.String" itemvalue="smoke" />
+            <item index="3" class="java.lang.String" itemvalue="regression" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
