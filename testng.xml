@@ -1,0 +1,9 @@
+<suite name = "PolicyBazaar Generic Testsuite">
+    <listeners>
+        <listener class-name="policybazaar.utility.ExtentReportManager"/>
+    </listeners>
+    <suite-files>
+        <suite-file path="src/test/resources/testSuites/chromeTest.xml" />
+        <suite-file path="src/test/resources/testSuites/edgeTest.xml" />
+    </suite-files>
+</suite>
